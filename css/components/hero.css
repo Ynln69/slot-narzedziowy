@@ -1,0 +1,69 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background: #000; /* Фон на випадок, якщо зображення не завантажиться */
+}
+
+.hero-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; 
+}
+
+.hero-text {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+  top: 40%;
+  transform: translate(5%);
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero-text p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: #ff6600;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #e65c00;
+}

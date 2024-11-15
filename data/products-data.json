@@ -1,0 +1,67 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "photo": "img/item1.jpg",
+      "title": "Bezprzewodowa Wiertarka Slot",
+      "description": "Nowoczesna wiertarka bezprzewodowa, idealna do precyzyjnych prac w każdym warsztacie.",
+      "type": "Narzędzia Bezprzewodowe"
+    },
+    {
+      "id": 2,
+      "photo": "img/item2.jpg",
+      "title": "Elektroniczny Młot Casino",
+      "description": "Solidny i trwały młot elektroniczny, doskonały do wymagających projektów budowlanych.",
+      "type": "Elektroniczne Narzędzia"
+    },
+    {
+      "id": 3,
+      "photo": "img/item3.jpg",
+      "title": "Piła Tarczowa Online Jackpot",
+      "description": "Wysokiej jakości piła tarczowa, zapewniająca precyzyjne i szybkie cięcia.",
+      "type": "Narzędzia Tnące"
+    },
+    {
+      "id": 4,
+      "photo": "img/item4.jpg",
+      "title": "Szlifierka Premium Slot",
+      "description": "Profesjonalna szlifierka, która gwarantuje gładkie i dokładne wykończenie powierzchni.",
+      "type": "Szlifierki i Polerki"
+    },
+    {
+      "id": 5,
+      "photo": "img/item5.jpg",
+      "title": "Slot Online Wkrętarka Elektryczna",
+      "description": "Wysokiej jakości wkrętarka idealna do prac domowych i profesjonalnych.",
+      "type": "Wkrętarka Elektryczna"
+    },
+    {
+      "id": 6,
+      "photo": "img/item6.jpg",
+      "title": "Kasyno Online Piła Stołowa",
+      "description": "Profesjonalna piła stołowa, gwarantująca precyzyjne cięcie każdego materiału.",
+      "type": "Piła Stołowa"
+    },
+    {
+      "id": 7,
+      "photo": "img/item7.jpg",
+      "title": "Online Casino Wiertarka Młotkowa",
+      "description": "Mocna wiertarka młotkowa do prac budowlanych i remontowych.",
+      "type": "Wiertarka Młotkowa"
+    },
+    {
+      "id": 8,
+      "photo": "img/item8.jpg",
+      "title": "Slot Casino Pilarka Szablasta",
+      "description": "Pilarka szablasta idealna do cięcia drewna i metalu.",
+      "type": "Pilarka Szablasta"
+    },
+    {
+      "id": 9,
+      "photo": "img/item9.jpg",
+      "title": "Kasyno Online Wiertarka Przewodowa",
+      "description": "Wytrzymała wiertarka przewodowa do intensywnego użytkowania.",
+      "type": "Wiertarka Przewodowa"
+    }
+  ]
+}

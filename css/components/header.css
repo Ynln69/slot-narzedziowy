@@ -1,0 +1,134 @@
+/* Основний стиль хедера */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #ffffff; /* Білий фон */
+  color: #333; /* Темний текст */
+  border-bottom: 1px solid #ddd;
+}
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  @media (min-width: 1024px) {
+    justify-content: space-between;
+  }
+}
+
+.header-nav {
+  display: flex;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #333; /* Темний текст */
+  transition: color 0.3s ease;
+}
+
+.nav-list li a:hover {
+  color: #ffa500; /* Помаранчевий підсвіт при наведенні */
+}
+
+/* Мобільна кнопка */
+.mobile-menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  color: #333; /* Темна іконка */
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Стилі для мобільного меню */
+
+@media (max-width: 768px) {
+  .mobile-menu-btn {
+    display: block;
+  }
+
+  .header-nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #ffffff; /* Білий фон мобільного меню */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    z-index: 1000;
+  }
+
+  .header-nav.active {
+    display: flex;
+    height: 35vh;
+    z-index: 2;
+    top: 105px;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .nav-list li a {
+    font-size: 1rem;
+    color: #333;
+    padding: 10px 20px;
+  }
+
+  .nav-list li a:hover {
+    color: #ffa500;
+  }
+}
+@media (max-width:400px) {
+  .header-nav.active {
+    top: 164px;
+  }
+}
+
+
+.language-select {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.header-select {
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #333; /* Match the text color of the site */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.header-select:focus,
+.header-select:hover {
+  border-color: #007bff; /* Highlight border color */
+  box-shadow: 0 2px 6px rgba(0, 123, 255, 0.4); /* Highlight shadow */
+}
+
+.language-select label {
+  margin-right: 10px;
+  font-size: 16px;
+  color: #333; /* Match site's style */
+  font-weight: 500;
+}

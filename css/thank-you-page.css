@@ -1,0 +1,9 @@
+@import url("./modern-normalized.css");
+@import url("./reset.css");
+@import url("./base.css");
+
+
+@import url("./components/header.css");
+@import url("./components/thank-you.css");
+@import url("./components/cookies.css");
+@import url("./components/footer.css");

@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="./public/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Witamy w Slot Narzędziowy - Twoim zaufanym sklepie z narzędziami! Znajdź najlepsze narzędzia i akcesoria do swojego projektu."
+    />
+    <meta
+      name="keywords"
+      content="Slot Narzędziowy, narzędzia, slot online, total casino, elektronarzędzia, klucze, wkrętarki, narzędzia ręczne, akcesoria, Polska"
+    />
+    <title>Slot Narzędziowy</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <div class="header-logo">
+          <a href="./">
+            <img src="./img/logo.png" alt="Slot Narzędziowy" width="80" />
+          </a>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Otwórz menu">
+          <i class="fas fa-bars"></i>
+        </button>
+        <nav class="header-nav">
+          <ul class="nav-list">
+            <li>
+              <a href="../" data-translate="header.link1">Strona Główna</a>
+            </li>
+            <li>
+              <a href="./#categories" data-translate="header.link2"
+                >Kategorie</a
+              >
+            </li>
+            <li><a href="./#about" data-translate="header.link3">O nas</a></li>
+            <li>
+              <a href="./#testimonials" data-translate="header.link4">Opinie</a>
+            </li>
+            <li>
+              <a href="./#specials" data-translate="header.link5"
+                >Promocje Specjalne</a
+              >
+            </li>
+            <li>
+              <a href="./page/contact-page.html" data-translate="header.link6"
+                >Kontakt</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="language-select">
+          <label for="language-dropdown" data-translate="header.label"
+            >Język:</label
+          >
+          <select id="language-dropdown" class="header-select">
+            <option value="pl" id="lang-pl">Polski</option>
+            <option value="en" id="lang-en">English</option>
+          </select>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <img
+            src="./img/slide1.webp"
+            alt="Narzędzia precyzyjne"
+            class="hero-image"
+          />
+          <div class="hero-text">
+            <h1 data-translate="hero.mainTitle">Precyzyjne Narzędzia</h1>
+            <p data-translate="hero.text">
+              Najwyższa jakość dla profesjonalistów.
+            </p>
+            <a
+              href="./page/index.html"
+              class="btn-primary"
+              data-translate="hero.btn"
+              >Zobacz ofertę</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="categories section" id="categories">
+        <div class="container">
+          <h2 class="title" data-translate="categories.mainTitle">
+            Kategorie Produktów
+          </h2>
+          <ul class="categories-grid">
+            <li class="category-card">
+              <img src="./img/pliers.png" alt="Szczypce" />
+              <div class="category-content">
+                <h3 data-translate="categories.title1">Szczypce</h3>
+                <p data-translate="categories.desc1">
+                  Najlepsze narzędzia dla Twojego warsztatu...
+                </p>
+                <a
+                  href="./page/index.html"
+                  class="btn-primary"
+                  data-translate="categories.btn"
+                  >Zobacz Teraz</a
+                >
+              </div>
+            </li>
+            <li class="category-card">
+              <img src="./img/sanding-tools.png" alt="Narzędzia Szlifierskie" />
+              <div class="category-content">
+                <h3 data-translate="categories.title2">
+                  Narzędzia Szlifierskie
+                </h3>
+                <p data-translate="categories.desc2">
+                  Najwyższa jakość dla profesjonalistów...
+                </p>
+                <a
+                  href="./page/index.html"
+                  class="btn-primary"
+                  data-translate="categories.btn"
+                  >Zobacz Teraz</a
+                >
+              </div>
+            </li>
+            <li class="category-card">
+              <img src="./img/drywall-anchors.png" alt="Kołki Do Gipsu" />
+              <div class="category-content">
+                <h3 data-translate="categories.title3">Kołki Do Gipsu</h3>
+                <p data-translate="categories.desc3">
+                  Idealne rozwiązania dla Twoich projektów...
+                </p>
+                <a
+                  href="./page/index.html"
+                  class="btn-primary"
+                  data-translate="categories.btn"
+                  >Zobacz Teraz</a
+                >
+              </div>
+            </li>
+          </ul>
+          <ul class="features">
+            <li class="feature">
+              <i class="fas fa-truck"></i>
+              <h3 data-translate="features.title1">Darmowa Dostawa</h3>
+              <p data-translate="features.desc1">
+                Przy zamówieniach powyżej 150 zł
+              </p>
+            </li>
+            <li class="feature">
+              <i class="fas fa-wallet"></i>
+              <h3 data-translate="features.title2">Płatność Przy Odbiorze</h3>
+              <p data-translate="features.desc2">Gwarancja zwrotu pieniędzy</p>
+            </li>
+            <li class="feature">
+              <i class="fas fa-gift"></i>
+              <h3 data-translate="features.title3">Karta Podarunkowa</h3>
+              <p data-translate="features.desc3">
+                Specjalne bonusy przy zakupach
+              </p>
+            </li>
+            <li class="feature">
+              <i class="fas fa-headset"></i>
+              <h3 data-translate="features.title4">Obsługa Klienta 24/7</h3>
+              <p data-translate="features.desc4">
+                Dzwoń 24/7 pod numer 123-456-789
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="about-us section" id="about">
+        <div class="container">
+          <h2 class="title" data-translate="about.mainTitle">O nas</h2>
+          <p class="text" data-translate="about.desc">
+            Slot Narzędziowy to sklep, który łączy nowoczesność z
+            praktycznością. Naszą misją jest dostarczanie najwyższej jakości
+            narzędzi oraz akcesoriów, które spełniają oczekiwania nawet
+            najbardziej wymagających klientów.
+          </p>
+          <h3 class="subTitle" data-translate="about.title1">Nasze wartości</h3>
+          <p class="text" data-translate="about.desc1">
+            W Slot Narzędziowy stawiamy na jakość, zaufanie oraz zadowolenie
+            klienta. Każdy produkt w naszej ofercie został starannie
+            wyselekcjonowany, aby sprostać różnorodnym potrzebom zarówno
+            profesjonalistów, jak i pasjonatów majsterkowania.
+          </p>
+          <h3 class="subTitle" data-translate="about.title2">Nasza oferta</h3>
+          <p class="text" data-translate="about.desc2">
+            Oferujemy szeroki wybór narzędzi ręcznych, elektronarzędzi, oraz
+            akcesoriów warsztatowych. Dzięki naszej ofercie możesz wyposażyć
+            swój warsztat w najlepsze produkty na rynku.
+          </p>
+          <h3 class="subTitle" data-translate="about.title3">Dlaczego my?</h3>
+          <p class="text" data-translate="about.desc3">
+            Wybierając Slot Narzędziowy, wybierasz profesjonalizm, wysoką jakość
+            oraz kompleksową obsługę. Jesteśmy dumni z tego, że możemy pomóc Ci
+            realizować Twoje projekty z najlepszymi narzędziami.
+          </p>
+        </div>
+      </section>
+      <section class="testimonials section" id="testimonials">
+        <div class="container">
+          <h2 class="title" data-translate="testimonials.mainTitle">
+            Opinie Klientów
+          </h2>
+          <ul class="testimonial-slider">
+            <li class="testimonial">
+              <img
+                src="./img/customer1.jpg"
+                alt="Jan Kowalski"
+                class="customer-photo"
+              />
+              <h3 class="customer-name" data-translate="testimonials.name1">
+                Jan Kowalski
+              </h3>
+              <p class="testimonial-text" data-translate="testimonials.desc1">
+                Świetna jakość narzędzi! Dzięki Slot Narzędziowy moje projekty
+                są realizowane szybciej i sprawniej.
+              </p>
+            </li>
+            <li class="testimonial">
+              <img
+                src="./img/customer2.jpg"
+                alt="Anna Nowak"
+                class="customer-photo"
+              />
+              <h3 class="customer-name" data-translate="testimonials.name2">
+                Anna Nowak
+              </h3>
+              <p class="testimonial-text" data-translate="testimonials.desc2">
+                Obsługa na najwyższym poziomie. Polecam każdemu, kto szuka
+                profesjonalnych narzędzi.
+              </p>
+            </li>
+            <li class="testimonial">
+              <img
+                src="./img/customer3.jpg"
+                alt="Marek Wiśniewski"
+                class="customer-photo"
+              />
+              <h3 class="customer-name" data-translate="testimonials.name3">
+                Marek Wiśniewski
+              </h3>
+              <p class="testimonial-text" data-translate="testimonials.desc3">
+                Znalazłem tu wszystko, czego potrzebowałem do mojego warsztatu.
+                Na pewno wrócę na kolejne zakupy!
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="specials section" id="specials">
+        <div class="container">
+          <h2 class="title" data-translate="specials.mainTitle">
+            Promocje Specjalne
+          </h2>
+          <ul class="specials-grid">
+            <li class="special-item">
+              <a href="./page/index.html">
+                <img src="./img/item1.jpg" alt="Bezprzewodowa Wiertarka Slot" />
+                <div class="special-content">
+                  <h3 data-translate="specials.title1">
+                    Bezprzewodowa Wiertarka Slot
+                  </h3>
+                  <p class="price">
+                    <span class="current-price">300,00 zł</span>
+                    <span class="old-price">350,00 zł</span>
+                  </p>
+                  <div class="stars">★★★★★</div>
+                </div>
+              </a>
+            </li>
+            <li class="special-item">
+              <a href="./page/index.html">
+                <img src="./img/item2.jpg" alt="Elektroniczny Młot Casino" />
+                <div class="special-content">
+                  <h3 data-translate="specials.title2">
+                    Elektroniczny Młot Casino
+                  </h3>
+                  <p class="price">
+                    <span class="current-price">250,00 zł</span>
+                    <span class="old-price">300,00 zł</span>
+                  </p>
+                  <div class="stars">★★★★☆</div>
+                </div>
+              </a>
+            </li>
+            <li class="special-item">
+              <a href="./page/index.html">
+                <img src="./img/item3.jpg" alt="Piła Tarczowa Online Jackpot" />
+                <div class="special-content">
+                  <h3 data-translate="specials.title3">
+                    Piła Tarczowa Online Jackpot
+                  </h3>
+                  <p class="price">
+                    <span class="current-price">200,00 zł</span>
+                    <span class="old-price">250,00 zł</span>
+                  </p>
+                  <div class="stars">★★★★★</div>
+                </div>
+              </a>
+            </li>
+            <li class="special-item">
+              <a href="./page/index.html">
+                <img src="./img/item4.jpg" alt="Szlifierka Premium Slot" />
+                <div class="special-content">
+                  <h3 data-translate="specials.title4">
+                    Szlifierka Premium Slot
+                  </h3>
+                  <p class="price">
+                    <span class="current-price">150,00 zł</span>
+                    <span class="old-price">200,00 zł</span>
+                  </p>
+                  <div class="stars">★★★★☆</div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="newsletter section">
+        <div class="container newsletter-container">
+          <div class="newsletter-wrapper">
+            <div class="newsletter-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="newsletter-content">
+              <h3 data-translate="newsletter.mainTitle">
+                Zapisz się do Newslettera
+              </h3>
+              <p data-translate="newsletter.text">
+                Otrzymaj 20% rabatu na wszystkie produkty przy pierwszym
+                zamówieniu.
+              </p>
+            </div>
+          </div>
+          <div class="newsletter-form-thumb">
+            <p id="confirmation-message" class="confirmation-message"></p>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Wpisz swój e-mail..." required />
+              <button type="submit" data-translate="newsletter.btn">
+                Zapisz się
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <!-- Contact Section -->
+        <div class="footer-section">
+          <h3 data-translate="footer.title1">Kontakt</h3>
+          <div class="location-item">
+            <i class="fas fa-home"></i>
+            <address data-translate="footer.text1">
+              Twój sklep: ul. Główna 12, Warszawa, Polska
+            </address>
+          </div>
+          <div class="location-item">
+            <i class="fas fa-phone-alt"></i>
+            <a href="tel:48727568333" data-translate="footer.text2"
+              >Telefon: +48 727 568 333</a
+            >
+          </div>
+          <div class="location-item">
+            <i class="fas fa-envelope"></i>
+            <a
+              href="mailto:support@slotnarzedziowy.com"
+              data-translate="footer.text3"
+              >E-mail: support@slotnarzedziowy.com</a
+            >
+          </div>
+        </div>
+
+        <!-- Information Section -->
+        <div class="footer-section">
+          <h3 data-translate="footer.title2">Informacje</h3>
+          <ul>
+            <li>
+              <a
+                href="./page/politikası-page.html"
+                data-translate="footer.link7"
+                >Polityka prywatności</a
+              >
+            </li>
+            <li>
+              <a
+                href="./page/regulamin-rpage.html"
+                data-translate="footer.link8"
+                >Regulamin</a
+              >
+            </li>
+            <li>
+              <a href="./page/plikow-cookie.html" data-translate="footer.link9"
+                >Polityka Cookies</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3 data-translate="footer.title3">Dodatkowe</h3>
+          <ul>
+            <li>
+              <a href="./" data-translate="footer.link1">Strona Główna</a>
+            </li>
+            <li>
+              <a href="./#categories" data-translate="footer.link2"
+                >Kategorie</a
+              >
+            </li>
+            <li><a href="./#about" data-translate="footer.link3">O nas</a></li>
+            <li>
+              <a href="./#testimonials" data-translate="footer.link4">Opinie</a>
+            </li>
+            <li>
+              <a href="./#specials" data-translate="footer.link5"
+                >Promocje Specjalne</a
+              >
+            </li>
+            <li>
+              <a href="./page/contact-page.html" data-translate="footer.link6"
+                >Kontakt</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p style="text-align: center" data-translate="footer.text">
+        &copy; 2024 Slot Narzędziowy - swiatecznyslot.com. Wszelkie prawa
+        zastrzeżone.
+      </p>
+    </footer>
+
+    <div id="cookie-banner" class="cookie-banner">
+      <p data-translate="cookieBanner.text">
+        Ta strona korzysta z plików cookie, aby poprawić Twoje doświadczenia.
+      </p>
+      <button id="accept-cookies" data-translate="cookieBanner.button">
+        Akceptuję pliki cookie
+      </button>
+    </div>
+
+    <script src="https://unpkg.com/i18next-xhr-backend@latest/i18nextXHRBackend.min.js"></script>
+    <script src="https://unpkg.com/i18next@21.6.11/dist/umd/i18next.min.js"></script>
+
+    <script src="./js/translator.js"></script>
+    <script src="./js/mobile-menu.js"></script>
+    <script src="./js/form-home.js"></script>
+    <script src="./js/cookie-banner.js"></script>
+  </body>
+</html>

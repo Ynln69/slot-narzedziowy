@@ -1,0 +1,50 @@
+/* Styles for the Thank You Page */
+.thank-you-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #f0f0f0, #ffffff);
+}
+
+.thank-you-container {
+  text-align: center;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  max-width: 600px;
+  width: 90%;
+}
+
+.thank-you-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.thank-you-text {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero-link {
+  display: inline-block;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 30px;
+  background: #20688c;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.hero-link:hover {
+  background: #003f8a;
+}

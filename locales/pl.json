@@ -1,0 +1,222 @@
+{
+  "header": {
+    "link1": "Strona Główna",
+    "link2": "Kategorie",
+    "link3": "O nas",
+    "link4": "Opinie",
+    "link5": "Promocje Specjalne",
+    "link6": "Kontakt",
+
+    "label": "Język:"
+  },
+  "hero": {
+    "mainTitle": "Precyzyjne Narzędzia",
+    "text": "Najwyższa jakość dla profesjonalistów.",
+    "btn": "Zobacz ofertę"
+  },
+  "categories": {
+    "mainTitle": "Kategorie Produktów",
+
+    "title1": "Szczypce",
+    "title2": "Narzędzia Szlifierskie",
+    "title3": "Kołki Do Gipsu",
+
+    "desc1": "Najlepsze narzędzia dla Twojego warsztatu...",
+    "desc2": "Najwyższa jakość dla profesjonalistów...",
+    "desc3": "Idealne rozwiązania dla Twoich projektów...",
+
+    "btn": "Zobacz Teraz"
+  },
+  "about": {
+    "mainTitle": "O nas",
+    "desc": "Slot Narzędziowy to sklep, który łączy nowoczesność z praktycznością. Naszą misją jest dostarczanie najwyższej jakości narzędzi oraz akcesoriów, które spełniają oczekiwania nawet najbardziej wymagających klientów.",
+
+    "title1": "Nasze wartości",
+    "title2": "Nasza oferta",
+    "title3": "Dlaczego my?",
+
+    "desc1": "W Slot Narzędziowy stawiamy na jakość, zaufanie oraz zadowolenie klienta. Każdy produkt w naszej ofercie został starannie wyselekcjonowany, aby sprostać różnorodnym potrzebom zarówno profesjonalistów, jak i pasjonatów majsterkowania.",
+    "desc2": "Oferujemy szeroki wybór narzędzi ręcznych, elektronarzędzi, oraz akcesoriów warsztatowych. Dzięki naszej ofercie możesz wyposażyć swój warsztat w najlepsze produkty na rynku.",
+    "desc3": "Wybierając Slot Narzędziowy, wybierasz profesjonalizm, wysoką jakość oraz kompleksową obsługę. Jesteśmy dumni z tego, że możemy pomóc Ci realizować Twoje projekty z najlepszymi narzędziami."
+  },
+  "features": {
+    "title1": "Darmowa Dostawa",
+    "title2": "Płatność Przy Odbiorze",
+    "title3": "Karta Podarunkowa",
+    "title4": "Obsługa Klienta 24/7",
+
+    "desc1": "Przy zamówieniach powyżej 150 zł",
+    "desc2": "Gwarancja zwrotu pieniędzy",
+    "desc3": "Specjalne bonusy przy zakupach",
+    "desc4": "Dzwoń 24/7 pod numer 123-456-789"
+  },
+  "testimonials": {
+    "mainTitle": "Opinie Klientów",
+
+    "name1": "Jan Kowalski",
+    "name2": "Anna Nowak",
+    "name3": "Marek Wiśniewski",
+
+    "desc1": "Świetna jakość narzędzi! Dzięki Slot Narzędziowy moje projekty są realizowane szybciej i sprawniej.",
+    "desc2": "Obsługa na najwyższym poziomie. Polecam każdemu, kto szuka profesjonalnych narzędzi.",
+    "desc3": "Znalazłem tu wszystko, czego potrzebowałem do mojego warsztatu. Na pewno wrócę na kolejne zakupy!"
+  },
+  "specials": {
+    "mainTitle": "Promocje Specjalne",
+
+    "title1": "Bezprzewodowa Wiertarka Slot",
+    "title2": "Elektroniczny Młot Casino",
+    "title3": "Piła Tarczowa Online Jackpot",
+    "title4": "Szlifierka Premium Slot"
+  },
+  "newsletter": {
+    "mainTitle": "Zapisz się do Newslettera",
+    "text": "Otrzymaj 20% rabatu na wszystkie produkty przy pierwszym zamówieniu.",
+
+    "btn": "Zapisz się"
+  },
+
+  "products": {
+    "title1": "Bezprzewodowa Wiertarka Slot",
+    "desc1": "Nowoczesna wiertarka bezprzewodowa, idealna do precyzyjnych prac w każdym warsztacie.",
+    "type1": "Narzędzia Bezprzewodowe",
+
+    "title2": "Elektroniczny Młot Casino",
+    "desc2": "Solidny i trwały młot elektroniczny, doskonały do wymagających projektów budowlanych.",
+    "type2": "Elektroniczne Narzędzia",
+
+    "title3": "Piła Tarczowa Online Jackpot",
+    "desc3": "Wysokiej jakości piła tarczowa, zapewniająca precyzyjne i szybkie cięcia.",
+    "type3": "Narzędzia Tnące",
+
+    "title4": "Szlifierka Premium Slot",
+    "desc4": "Profesjonalna szlifierka, która gwarantuje gładkie i dokładne wykończenie powierzchni.",
+    "type4": "Szlifierki i Polerki",
+
+    "title5": "Slot Online Wkrętarka Elektryczna",
+    "desc5": "Wysokiej jakości wkrętarka idealna do prac domowych i profesjonalnych.",
+    "type5": "Wkrętarka Elektryczna",
+
+    "title6": "Kasyno Online Piła Stołowa",
+    "desc6": "Profesjonalna piła stołowa, gwarantująca precyzyjne cięcie każdego materiału.",
+    "type6": "Piła Stołowa",
+
+    "title7": "Online Casino Wiertarka Młotkowa",
+    "desc7": "Mocna wiertarka młotkowa do prac budowlanych i remontowych.",
+    "type7": "Wiertarka Młotkowa",
+
+    "title8": "Slot Casino Pilarka Szablasta",
+    "desc8": "Pilarka szablasta idealna do cięcia drewna i metalu.",
+    "type8": "Pilarka Szablasta",
+
+    "title9": "Kasyno Online Wiertarka Przewodowa",
+    "desc9": "Wytrzymała wiertarka przewodowa do intensywnego użytkowania.",
+    "type9": "Wiertarka Przewodowa"
+  },
+  "cookie": {
+    "mainTitle": "Polityka Plików Cookie",
+
+    "title1": "1. Czym są pliki cookie:",
+    "title2": "2. Jak wykorzystujemy pliki cookie:",
+    "title3": "3. Rodzaje plików cookie, które wykorzystujemy:",
+    "title4": "4. Zarządzanie plikami cookie:",
+
+    "text1": "Data wejścia w życie: 1 stycznia 2024",
+    "text2": "Slot Narzędziowy wykorzystuje pliki cookie, aby poprawić Twoje doświadczenie na naszej stronie i dostarczyć bardziej spersonalizowane usługi.",
+    "text3": "Pliki cookie to małe pliki zapisywane na Twoim urządzeniu przez naszą stronę internetową. Służą one do poprawy funkcjonalności strony oraz optymalizacji doświadczenia użytkownika.",
+    "text4": "Możesz zarządzać plikami cookie lub je wyłączyć w ustawieniach swojej przeglądarki. Należy jednak pamiętać, że wyłączenie plików cookie może wpłynąć na działanie niektórych funkcji naszej strony.",
+    "text5": "Korzystając z naszej strony, zgadzasz się na wykorzystanie plików cookie, zgodnie z opisem w tej polityce. Jeśli masz pytania dotyczące plików cookie, skontaktuj się z nami pod adresem kontakt@swiatecznyslot.com",
+
+    "item1": "Aby monitorować wydajność naszej strony i poprawić Twoje doświadczenie użytkownika.",
+    "item2": "Aby zapamiętać Twoje ustawienia, dzięki czemu możemy dostarczyć lepsze usługi.",
+    "item3": "Niezbędne pliki cookie: Są wymagane do podstawowej funkcjonalności strony, na przykład zapamiętywania koszyka zakupowego lub danych logowania.",
+    "item4": "Analityczne pliki cookie: Używane do monitorowania sposobu korzystania ze strony oraz poprawy jej wydajności."
+  },
+  "warunki": {
+    "mainTitle": "Warunki Użytkowania",
+
+    "title1": "1. Zasady Ogólne:",
+    "title2": "2. Własność Intelektualna:",
+    "title3": "3. Odpowiedzialność:",
+    "title4": "4. Zmiany:",
+
+    "text1": "Data wejścia w życie: 1 stycznia 2024",
+    "text2": "Witamy na stronie swiatecznyslot.com Korzystając z naszej strony, akceptujesz poniższe warunki użytkowania.",
+    "text3": "Wszystkie treści na tej stronie, w tym zdjęcia i logo, są własnością swiatecznyslot.com Wykorzystywanie treści bez naszej zgody jest zabronione.",
+    "text4": "Nie ponosimy odpowiedzialności za jakiekolwiek szkody wynikające z korzystania z naszej strony lub świadczonych przez nas usług.",
+    "text5": "Zastrzegamy sobie prawo do zmiany tych warunków w dowolnym momencie. Kontynuowanie korzystania ze strony po zmianach oznacza akceptację nowych warunków.",
+    "text6": "Jeśli masz jakiekolwiek pytania, skontaktuj się z nami pod adresem kontakt@swiatecznyslot.com",
+
+    "item1": "Aby korzystać z naszych usług i dokonywać zakupów, musisz mieć ukończone 18 lat.",
+    "item2": "Zobowiązujesz się do korzystania z naszej strony zgodnie z obowiązującym prawem."
+  },
+  "privacy": {
+    "mainTitle": "Polityka Prywatności",
+
+    "title1": "1. Jakie dane zbieramy:",
+    "title2": "2. Jak wykorzystujemy Twoje dane:",
+    "title3": "3. Udostępnianie danych:",
+    "title4": "4. Pliki cookie:",
+    "title5": "5. Ochrona danych:",
+    "title6": "6. Twoje prawa:",
+
+    "text1": "Data wejścia w życie: 1 stycznia 2024",
+    "text2": "Slot Narzędziowy (my, nasz, nam) szanuje Twoją prywatność. Niniejsza Polityka Prywatności wyjaśnia, w jaki sposób gromadzimy, wykorzystujemy i chronimy Twoje dane osobowe podczas korzystania z naszej strony internetowej.",
+    "text3": "Nie udostępniamy Twoich danych osobowych stronom trzecim, chyba że jest to wymagane przez prawo.",
+    "text4": "Wykorzystujemy pliki cookie, aby poprawić Twoje doświadczenie na naszej stronie oraz dostarczyć bardziej spersonalizowane usługi.",
+    "text5": "Podejmujemy odpowiednie środki bezpieczeństwa, aby chronić Twoje dane osobowe.",
+    "text6": "Masz prawo dostępu do swoich danych osobowych, ich poprawy lub usunięcia.",
+    "text7": "W przypadku pytań dotyczących prywatności, prosimy o kontakt pod adresem kontakt@swiatecznyslot.com",
+
+    "item1": "Dane osobowe, które podajesz (imię, adres e-mail itp.).",
+    "item2": "Dane zbierane za pomocą plików cookie.",
+    "item3": "Aby dostarczyć nasze usługi.",
+    "item4": "Aby ulepszyć Twoje doświadczenie użytkownika."
+  },
+
+  "footer": {
+    "link1": "Strona Główna",
+    "link2": "Kategorie",
+    "link3": "O nas",
+    "link4": "Opinie",
+    "link5": "Promocje Specjalne",
+    "link6": "Kontakt",
+    "link7": "Polityka Prywatności",
+    "link8": "Warunki Użytkowania",
+    "link9": "Polityka Cookies",
+
+    "text1": "Twój sklep: ul. Główna 12, Warszawa, Polska",
+    "text2": "Telefon: +48 727 568 333",
+    "text3": "E-mail: support@slotnarzedziowy.com",
+
+    "title1": "Kontakt",
+    "title2": "Informacje",
+    "title3": "Dodatkowe",
+
+    "text": "© 2024 Slot Narzędziowy - slotnarzedziowy.com | Wszelkie prawa zastrzeżone."
+  },
+  "cookieBanner": {
+    "text": "Ta strona korzysta z plików cookie, aby poprawić Twoje doświadczenia.",
+    "button": "Akceptuję pliki cookie"
+  },
+  "thankYou": {
+    "title": "Dziękujemy!",
+    "text": "Twoja wiadomość została pomyślnie wysłana. Skontaktujemy się z Tobą w najbliższym czasie.",
+    "button": "Powrót na stronę główną"
+  },
+  "contacts": {
+    "mainTitle": "Nasze lokalizacje",
+    "title": "Formularz kontaktowy",
+
+    "label1": "* Imię i nazwisko",
+    "label2": "* E-mail",
+    "label3": "* Zapytanie",
+
+    "text1": "Twój sklep: ul. Główna 12, Warszawa, Polska",
+    "text2": "Telefon: +48 727 568 333",
+    "text3": "E-mail: support@slotnarzedziowy.com",
+    "text4": "Godziny otwarcia: 8:00 - 16:00",
+
+    "button": "Wyślij"
+  }
+}

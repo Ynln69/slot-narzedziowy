@@ -1,0 +1,62 @@
+.other-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Subtitle Styling */
+.other-subtitle {
+  font-size: 24px;
+  font-weight: bold;
+  color: #555;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+/* Text Paragraph Styling */
+.other-text,
+.other-subtext {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* Unordered List Styling */
+.other-list {
+  list-style-type: disc;
+  margin: 15px 0 15px 20px;
+  padding-left: 20px;
+}
+
+.other-list li {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .other-title {
+    font-size: 28px;
+  }
+
+  .other-subtitle {
+    font-size: 20px;
+  }
+
+  .other-text,
+  .other-subtext {
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 15px;
+  }
+}

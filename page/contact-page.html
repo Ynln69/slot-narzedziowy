@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="../public/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Witamy w Slot Narzędziowy - Twoim zaufanym sklepie z narzędziami! Znajdź najlepsze narzędzia i akcesoria do swojego projektu."
+    />
+    <meta
+      name="keywords"
+      content="Slot Narzędziowy, narzędzia, slot online, total casino, elektronarzędzia, klucze, wkrętarki, narzędzia ręczne, akcesoria, Polska"
+    />
+    <script src="../js/builder.js"></script>
+    <title>Slot Narzędziowy</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/contact-page.css" />
+  </head>
+
+  <body>
+    <header class="header"></header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <img
+            src="../img/slide3.webp"
+            alt="Narzędzia precyzyjne"
+            class="hero-image"
+          />
+          <div class="hero-text">
+            <h1 data-translate="hero.mainTitle">Precyzyjne Narzędzia</h1>
+            <p data-translate="hero.text">
+              Najwyższa jakość dla profesjonalistów.
+            </p>
+            <a href="./index.html" class="btn-primary" data-translate="hero.btn"
+              >Zobacz ofertę</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="contact-section">
+        <div class="container">
+          <div class="contact-wrapper">
+            <div class="contact-locations">
+              <h3 data-translate="contacts.mainTitle">Nasze lokalizacje</h3>
+              <div class="location-item">
+                <i class="fas fa-home"></i>
+                <address data-translate="contacts.text1">
+                  Twój sklep: ul. Główna 12, Warszawa, Polska
+                </address>
+              </div>
+              <div class="location-item">
+                <i class="fas fa-phone-alt"></i>
+                <a href="tel:48727568333" data-translate="contacts.text2"
+                  >Telefon: +48 727 568 333</a
+                >
+              </div>
+              <div class="location-item">
+                <i class="fas fa-clock"></i>
+                <a href="mailto:" data-translate="contacts.text3"
+                  >E-mail: support@slotnarzedziowy.com</a
+                >
+              </div>
+              <div class="location-item">
+                <i class="fas fa-clock"></i>
+                <p data-translate="contacts.text4">
+                  Godziny otwarcia<br />8:00 - 16:00
+                </p>
+              </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form-wrapper">
+              <h3 data-translate="contacts.title">Formularz kontaktowy</h3>
+              <form id="contact-form">
+                <div class="form-group">
+                  <label for="name" data-translate="contacts.label1"
+                    >* Imię i nazwisko</label
+                  >
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="Wpisz swoje imię"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email" data-translate="contacts.label2"
+                    >* E-mail</label
+                  >
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="Wpisz swój adres e-mail"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="message" data-translate="contacts.label3"
+                    >* Zapytanie</label
+                  >
+                  <textarea
+                    id="message"
+                    rows="5"
+                    placeholder="Wpisz swoje zapytanie"
+                    required
+                  ></textarea>
+                </div>
+                <button
+                  type="submit"
+                  class="btn-primary"
+                  data-translate="contacts.button"
+                >
+                  Wyślij
+                </button>
+              </form>
+            </div>
+          </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.7600958982154!2d21.012228315962257!3d52.22967577975659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc6ce1d6f1fb%3A0xa8ccdd93e6189434!2sG%C5%82%C3%B3wna%2012%2C%20Warszawa%2C%20Polska!5e0!3m2!1spl!2spl!4v1699999999999!5m2!1spl!2spl"
+            width="100%"
+            height="300"
+            style="border: 0; margin-top: 30px;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer"></footer>
+
+    <div id="cookie-banner" class="cookie-banner">
+      <p data-translate="cookieBanner.text">
+        Ta strona korzysta z plików cookie, aby poprawić Twoje doświadczenia.
+      </p>
+      <button id="accept-cookies" data-translate="cookieBanner.button">
+        Akceptuję pliki cookie
+      </button>
+    </div>
+
+    <script src="https://unpkg.com/i18next-xhr-backend@latest/i18nextXHRBackend.min.js"></script>
+    <script src="https://unpkg.com/i18next@21.6.11/dist/umd/i18next.min.js"></script>
+    <script src="../js/translator.js"></script>
+    <script src="../js/mobile-menu.js"></script>
+    <script src="../js/form-contact.js"></script>
+    <script src="../js/cookie-banner.js"></script>
+  </body>
+</html>
